@@ -5,8 +5,18 @@
 }
 
 @media (max-width: 575.98px) {
-  .portfolio img {
+  .portfolio img,
+  .content .img-fluid {
     display: none;
+  }
+  body {
+    margin-top: 0;
+  }
+  .work {
+    display: none;
+  }
+  .first-screen h1 {
+    font-size: 26px;
   }
 }
 
@@ -57,7 +67,6 @@ img {
 }
 
 .first-screen {
-  background-color: #f9f7fe;
   text-align: center;
   padding: 160px 0;
 }
@@ -132,7 +141,7 @@ img {
   background: #f9f7fe;
   border-radius: 20px;
   padding-top: 20px;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .work p {
@@ -181,4 +190,16 @@ img {
 
 .content div.work {
   margin-top: 0px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer .email-link:hover {
+  color: var(--btn-branding-color);
 }
