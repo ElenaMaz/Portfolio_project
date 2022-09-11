@@ -203,4 +203,9 @@ footer .email-link:hover {
   .content h1 {
     font-size: 44px;
   }
+
+  .first-screen h2,
+  .content h2 {
+    font-size: 36px;
+  }
 }
