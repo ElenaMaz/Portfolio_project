@@ -63,7 +63,7 @@ img {
 }
 
 .first-screen a,
-.about-section-content a {
+.content a {
   border-radius: 4px;
   padding: 18px 30px 18px 30px;
   background: var(--btn-branding-color);
@@ -71,7 +71,7 @@ img {
   margin-top: 49px;
 }
 .first-screen a:hover,
-.about-section-content a:hover {
+.content a:hover {
   background: white;
   color: var(--btn-branding-color);
 }
@@ -148,37 +148,37 @@ img {
   color: #000000;
 }
 
-.about-section-content h1 {
+.content h1 {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
 }
 
-.about-section-content h2 {
+.content h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
 }
 
-.about-section-content p {
+.content p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
 }
 
-.about-section {
+.content {
   margin-top: 100px;
 }
 
-.about-section img {
-  max-width: 100%;
+.content-container img {
+  max-width: 75%;
   height: 75%;
   border-radius: 20px;
   margin: 0 auto;
   display: block;
 }
 
-.about-section div.work {
+.content div.work {
   margin-top: 0px;
 }
