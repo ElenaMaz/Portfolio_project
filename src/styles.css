@@ -4,22 +4,6 @@
   --secondary-font-family: "Playfair Display", serif;
 }
 
-@media (max-width: 575.98px) {
-  .portfolio img,
-  .content .img-fluid {
-    display: none;
-  }
-  body {
-    margin-top: 0;
-  }
-  .work {
-    display: none;
-  }
-  .first-screen h1 {
-    font-size: 26px;
-  }
-}
-
 body {
   font-family: var(--main-font-family);
 }
@@ -180,7 +164,7 @@ img {
   margin-top: 100px;
 }
 
-.content-container img {
+.content container img {
   max-width: 75%;
   height: 75%;
   border-radius: 20px;
@@ -202,4 +186,21 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--btn-branding-color);
+}
+
+@media (max-width: 575.98px) {
+  .portfolio img,
+  .content .img-fluid {
+    display: none;
+  }
+  .content {
+    margin-top: 30px;
+  }
+  .work {
+    display: none;
+  }
+  .first-screen h1,
+  .content h1 {
+    font-size: 44px;
+  }
 }
